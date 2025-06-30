@@ -28,7 +28,7 @@ cd thoughtful-ai-support-agent
 
 2. Install dependencies:
 ```bash
-pip install -r requirements-repo.txt
+pip install -r requirements.txt
 ```
 
 3. Set up environment variables:
@@ -66,7 +66,7 @@ streamlit run app.py --server.port 5000
 ├── knowledge_base.py     # Predefined Q&A pairs for Thoughtful AI
 ├── .streamlit/
 │   └── config.toml       # Streamlit server configuration
-├── requirements-repo.txt # Python dependencies
+├── requirements.txt # Python dependencies
 ├── README.md            # This file
 └── .gitignore           # Git ignore patterns
 ```
